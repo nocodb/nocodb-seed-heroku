@@ -1,0 +1,22 @@
+{
+  "name": "xc",
+  "description": "Create APIs at the speed of thoughts",
+  "logo": "https://xgenecloud.com/brand/favicon-64.png",
+  "keywords": [
+    "xc"
+  ],
+  "success_url": "/dashboard",
+  "website": "https://xc.com",
+  "repository": "https://github.com/francisaus/heroku",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
