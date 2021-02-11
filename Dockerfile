@@ -1,5 +1,4 @@
-FROM xgenecloud/xc-heroku:latest
+FROM xgenecloud/xc:latest
 ENV XC=xpranav
 
-
-CMD [ "node", "index.js" ]
+ENTRYPOINT ["sh", "/usr/src/appEntry/start.sh"]
