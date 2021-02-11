@@ -20,6 +20,7 @@
     }
   ],
    "env": {
-        "XC_ONE_CLICK": "true"
+        "XC_ONE_CLICK": "true",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
     }
 }
