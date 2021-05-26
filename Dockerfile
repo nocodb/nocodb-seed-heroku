@@ -1,4 +1,3 @@
-FROM xgenecloud/xc:latest
-ENV XC=xpranav
+FROM nocodb/nocodb:latest
 
 ENTRYPOINT ["sh", "/usr/src/appEntry/start.sh"]
