@@ -1,13 +1,13 @@
 {
-  "name": "xc",
+  "name": "nocodb",
   "description": "Create APIs at the speed of thoughts",
   "logo": "https://xgenecloud.com/brand/favicon-64.png",
   "keywords": [
-    "xc"
+    "nocodb"
   ],
   "success_url": "/dashboard",
-  "website": "https://xc.com",
-  "repository": "https://github.com/francisaus/heroku",
+  "website": "https://nocodb.com",
+  "repository": "https://github.com/npgia/nocodb-seed-heroku",
   "formation": {
     "web": {
       "quantity": 1
