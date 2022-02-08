@@ -7,7 +7,7 @@ providers:
 modules:
   - type: base
   - type: dns
-    domain: <domain::string::The dns domain for your NocoDB deployment>>
+    domain: <<domain::string::The dns domain for your NocoDB deployment>>
     delegated: false # set to true once ready https://docs.opta.dev/miscellaneous/ingress/
   - type: k8s-cluster
   - type: k8s-base
