@@ -15,7 +15,7 @@ modules:
   - type: cloudfront-distribution
     # acm_cert_arn: arn:aws:acm:{aws.region}:{aws.account_id}:certificate/<valid_arn_id>    # Use the ACM cert ARN here
     # domains:
-    #   - {module.dns.domain}
+    #   - ${{module.dns.domain}}
     links:
       - k8sbase
   - name: pg
