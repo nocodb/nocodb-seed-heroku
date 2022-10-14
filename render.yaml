@@ -3,7 +3,7 @@ services:
   name: nocodb
   env: docker
   autoDeploy: false
-  healthCheckPath: /dashboard
+  healthCheckPath: /dashboard/
   region: frankfurt
   plan: free
   envVars:
