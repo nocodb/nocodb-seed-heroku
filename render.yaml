@@ -4,6 +4,7 @@ services:
   env: docker
   autoDeploy: false
   healthCheckPath: /dashboard
+  plan: free
   envVars:
   - key: DATABASE_URL
     fromDatabase:
@@ -13,3 +14,4 @@ services:
     value: 8080
 databases:
 - name: xc
+  plan: free
