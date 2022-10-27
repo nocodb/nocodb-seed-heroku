@@ -12,3 +12,5 @@
 
 
 [![Deploy](https://raw.githubusercontent.com/run-x/opta/main/assets/deploy-to-aws-using-opta.svg)](https://app.runx.dev/deploy-with-aws?url=https%3A%2F%2Fgithub.com%2Fnocodb%2Fnocodb-seed-heroku%2Fblob%2Fmain%2Fopta.yaml&name=NocoDB)
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/nocodb/nocodb-seed-heroku/tree/main)
