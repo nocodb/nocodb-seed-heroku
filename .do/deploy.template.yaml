@@ -1,0 +1,14 @@
+spec:
+  name: nocodb
+  services:
+  - name: nocodb
+    dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/nocodb/nocodb-seed-heroku.git
+    envs:
+    - key: NC_DB
+      scope: RUN_TIME
+      value: pg://${xc.HOSTNAME}:${xc.PORT}?u=${xc.USERNAME}&p=${xc.PASSWORD}&d=${xc.DATABASE}&ssl=no-verify
+  databases:
+  - name: xc
